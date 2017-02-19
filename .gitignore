@@ -4,7 +4,8 @@ settings/
 project
 **/.classpath
 **/target/
-
+profile-filter-local.properties
+**/MANIFEST.MF
 
 # Compiled class file
 *.class

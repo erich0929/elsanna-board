@@ -38,4 +38,17 @@
   <modules>
     <module>elsanna-web</module>
   </modules>
+  <profiles>
+  	<profile>
+  		<id>local</id>
+  		<properties>
+  			<profile>local</profile>
+  		</properties>
+  	</profile>
+  </profiles>
+  <build>
+  	<filters>
+  		<filter>${basedir}/../profile-filter-${profile}.properties</filter>
+  	</filters>
+  </build>
 </project>
